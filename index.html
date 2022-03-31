@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./vendor/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./vendor/fancybox/dist/jquery.fancybox.min.css">
+    <title>estate</title>
+</head>
+<body>
+    <div class="for_page">
+        <div class="page">
+            <!-- Togle & Side Bar -->
+            <div class="sidebar">
+                <ul class="menu">
+                    <li><a href="#featured_images" onclick="toggleMenu();">Featured images</a></li>
+                    <li><a href="#gear_cage" onclick="toggleMenu();">Gear cage</a></li>
+                    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                    <a href="#" class="btn">Get template</a>
+                    <!-- <div class="sidebar_icon">
+                        <div class="user">
+                            <a href="#"><i class="fa-solid fa-user-large"></i></a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                        </div>
+                    </div> -->
+                </ul>
+            </div>
+            <!-- Side Bar -->
+            <!-- MAIN -->
+            <main class="main">
+                <!-- Welcome -->
+                <section class="welcome">
+                    <div class="welcome_wrapper">
+                        <header class="header">
+                            <div class="container header_container">
+                                <div class="header_logo">
+                                    <a href="#"><img src="./img/header/logo.png" alt="logo boosted_USA"></a>
+                                </div>
+                                <div class="header_nav">
+                                    <nav class="nav_menu">
+                                        <ul class="sub_menu">
+                                            <li class="item_menu">
+                                                <a class="link_item_menu" href="#start">Start</a>
+                                            </li>
+                                            <li class="item_menu">
+                                                <a class="link_item_menu" href="#contact">Contact</a>
+                                            </li>
+                                            <li class="item_menu">
+                                                <a class="link_item_menu" href="#our_history">Our history</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <a href="#" class="header_link_btn">Book now</a>
+                                <div class="toggle" onclick="toggleMenu();"></div>
+                            </div>
+                        </header>
+                        <div class="container">
+                            <div class="txt_wrapper">
+                                <div class="img">
+                                    <img src="./img/main/welcome/logo.png" alt="logo">
+                                </div>
+                                <h3>Experience the perfect combination of modern housing & natural scenery.</h3>
+                                <p>Located in Lofoten, norway</p>
+                            </div>
+                            <a href="#" class="welcome_link">
+                                <div class="img"><img src="./img/main/welcome/btn.png" alt="btn"></div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- About House -->
+                <section class="about_house">
+                    <div class="container">
+                        <div class="line"></div>
+                        <div class="about_house_txt_wrapper">
+                            <div class="txt">
+                                <p>The Guest House is the perfect weekend get-away housing. Located in the Norwegian archipelago, Lofoten, it's a great escape from the hustle and bustle of the city. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, 
+                                vulputate ut ligula.</p>
+                            </div>
+                            <div class="txt">
+                                <p>Below you'll find information about the accommodation and what's included in the price. Don't hesitate to reach out to us vi the contact page if you have any questions around 
+                                your stay.</p>
+                                <a href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Guest House text -->
+                <section class="guest_house_txt">
+                    <div class="line"></div>
+                    <div class="container">
+                        <h2>The Guest House is the perfect weekend getaway cabin.</h2>
+                    </div>
+                </section>
+                <!-- Guest House img -->
+                <section class="guest_house_img"></section>
+                <!-- Guest House info -->
+                <section class="guest_house_info">
+                    <div class="container">
+                        <div class="line"></div>
+                        <h4 class="title">Sleeping arrangements.</h4>
+                        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros 
+                        quis consectetur.</p>
+                        <div class="description">
+                            <div class="item">
+                                <div class="img"><img src="./img/main/gust_house/bed_icon.png" alt="bed_icon"></div>
+                                <h5>Beds</h5>
+                                <p class="description_txt">The cabin is equipped with 12 beds, 4 of which are in bunk. The rent includes linens for 
+                                all beds.</p>
+                            </div>
+                            <div class="item">
+                                <div class="img"><img src="./img/main/gust_house/door_icon.png" alt="door_icon"></div>
+                                <h5>Bedrooms</h5>
+                                <p class="description_txt">Spread out over two floors, the cabin offers 4 bedrooms. Ranging from 2 to 4 beds 
+                                per room.</p>
+                            </div>
+                            <div class="item">
+                                <div class="img"><img src="./img/main/gust_house/bath_icon.png" alt="bath_icon"></div>
+                                <h5>Bathrooms</h5>
+                                <p class="description_txt">The cabin has three bathrooms, all equipped with showers and one with 
+                                a bath tub,</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Advantage -->
+                <section class="advantage">
+                    <div class="container">
+                        <div class="line"></div>
+                        <h4 class="title">The perfect escape.</h4>
+                        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis 
+                        consectetur.</p>
+                        <div class="advantage_wrapper">
+                            <div class="item_wrapper">
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="./img/main/advantage/icon_1.png" alt="icon">
+                                    </div>
+                                    <div class="txt">
+                                        <h5>Modern Kitchen Appliances</h5>
+                                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="./img/main/advantage/icon_2.png" alt="icon">
+                                    </div>
+                                    <div class="txt">
+                                        <h5>Air Conditioner</h5>
+                                        <h6>Nullam scelerisque aliquam odio et faucibus.</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item_wrapper">
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="./img/main/advantage/icon_3.png" alt="icon">
+                                    </div>
+                                    <div class="txt">
+                                        <h5>Outdoor Paths</h5>
+                                        <h6>Nulla rhoncus feugiat eros quis consectetur.</h6>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="./img/main/advantage/icon_4.png" alt="icon">
+                                    </div>
+                                    <div class="txt">
+                                        <h5>Storage Solutions</h5>
+                                        <h6>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item_wrapper">
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="./img/main/advantage/icon_5.png" alt="icon">
+                                    </div>
+                                    <div class="txt">
+                                        <h5>Coffee Maker</h5>
+                                        <h6>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</h6>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="./img/main/advantage/icon_6.png" alt="icon">
+                                    </div>
+                                    <div class="txt">
+                                        <h5>Cutlery Selection</h5>
+                                        <h6>Duis tristique sed lorem a vestibulum.</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item_wrapper">
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="./img/main/advantage/icon_7.png" alt="icon">
+                                    </div>
+                                    <div class="txt">
+                                        <h5>Natural Scenery</h5>
+                                        <h6>Cras commodo consequat orci, in convallis risus egestas non.</h6>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="img">
+                                        <img src="./img/main/advantage/icon_8.png" alt="icon">
+                                    </div>
+                                    <div class="txt">
+                                        <h5>Take-away Options</h5>
+                                        <h6>Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Reviews -->
+                <section class="reviews">
+                    <div class="line"></div>
+                    <h3 class="title">Past guests.</h3>
+                    <p class="subtitle">Don't take our word for it! Have a look at what our previous guests say about their stay at the 
+                    Guest House.</p>
+                    <div class="slider-carousel">
+                        <div class="container">
+                            <div class="owl-carousel owl-theme" id="carousel_partners">
+                                <div class="item">
+                                    <div class="item_wrapper">
+                                        <div class="wrapper">
+                                            <div class="star">
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                            </div>
+                                            <h4 class="item_title">We had an amazing stay at the Guest House!</h4>
+                                            <p class="item_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae 
+                                            risus tristique posuere.</p>
+                                            <div class="user"><p class="user_name">Nate Davidsson</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_wrapper">
+                                        <div class="wrapper">
+                                            <div class="star">
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Outline-Icon.png" alt="star"></div>
+                                            </div>
+                                            <h4 class="item_title">Beautiful little hideaway.</h4>
+                                            <p class="item_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum 
+                                            lorem imperdiet.</p>
+                                            <div class="user"><p class="user_name">Laura Paulie</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_wrapper">
+                                        <div class="wrapper">
+                                            <div class="star">
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                            </div>
+                                            <h4 class="item_title">Best vacation ever!</h4>
+                                            <p class="item_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros 
+                                            elementum tristique.</p>
+                                            <div class="user"><p class="user_name">Greg Todd</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_wrapper">
+                                        <div class="wrapper">
+                                            <div class="star">
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                            </div>
+                                            <h4 class="item_title">Why is this place the best?</h4>
+                                            <p class="item_subtitle">Yes, because there is no better place on the planet. Each visit proves this more and more. The service has only improved over 
+                                            the years. Bravo.</p>
+                                            <div class="user"><p class="user_name">Lara Fabian</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_wrapper">
+                                        <div class="wrapper">
+                                            <div class="star">
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                                <div class="img"><img src="./img/main/reviews/Star-Icon.png" alt="star"></div>
+                                            </div>
+                                            <h4 class="item_title">When you know that the rest will be the best!</h4>
+                                            <p class="item_subtitle">Calling the service the best is an understatement. Every cent paid for a vacation in this place is 
+                                            fully justified.</p>
+                                            <div class="user"><p class="user_name">Cristiano Ronaldo</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Guest House img 2 -->
+                <section class="guest_house_img guest_house_img_2"></section>
+                <!-- Services -->
+                <section class="services">
+                    <div class="container">
+                        <div class="services_wrapper">
+                            <div class="item">
+                                <div class="line"></div>
+                                <h3 class="title">Come together.</h3>
+                                <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio 
+                                et faucibus.</p>
+                            </div>
+                            <div class="item item_2">
+                                <div class="item_wrapper">
+                                    <div class="img"><img src="./img/main/services/wi_fi.png" alt="wi-fi icon"></div>
+                                    <p class="item_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                                <div class="item_wrapper">
+                                    <div class="img"><img src="./img/main/services/bread.png" alt="bread icon"></div>
+                                    <p class="item_txt">Nullam scelerisque aliquam odio et faucibus.</p>
+                                </div>
+                                <div class="item_wrapper">
+                                    <div class="img"><img src="./img/main/services/hanger.png" alt="hanger icon"></div>
+                                    <p class="item_txt">Nulla rhoncus feugiat eros quis consectetur.</p>
+                                </div>
+                                <div class="item_wrapper">
+                                    <div class="img"><img src="./img/main/services/cutlery.png" alt="cutlery icon"></div>
+                                    <p class="item_txt">Morbi neque ex, <br> condimentum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Booked -->
+                <section class="booked">
+                    <div class="container">
+                        <div class="line"></div>
+                        <h3 class="title">We're already booked up for the spring — hurry up & secure your stay for the summer.</h3>
+                        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.</p>
+                        <div class="btn_wrapper">
+                            <a href="#" class="booked_btn">Contact</a>
+                            <a href="#" class="booked_btn booked_btn_2">Book now</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer_wrapper">
+                        <div class="wrapper_left">
+                            <div class="wrapper_nav">
+                                <div class="footer_nav">
+                                    <div class="list_item">
+                                        <div class="list_item_txt">
+                                            <p>Pages</p>
+                                        </div>
+                                        <ul class="sub_menu">
+                                            <li><a href="#">Start</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="#">Our history</a></li>
+                                            <li><a href="#">Licenses</a></li>
+                                            <li><a href="#">Instructions</a></li>
+                                            <li><a href="#">Style guide</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapper_social">
+                                <p class="social_title">Social Media</p>
+                                <div class="social_link">
+                                    <a href="#">
+                                        <img src="./img/footer/airbnb_icon.png" alt="airbnb_icon">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/footer/facebook_icon.png" alt="facebook_icon">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/footer/instagram_icon.png" alt="instagram_icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapper_right">
+                            <h4>Newsletter</h4>
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum 
+                            tristique.</h5>
+                            <div class="form">
+                                <input class="email" type="text" name="" placeholder="Email">
+                                <input class="footer_btn" type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_info_wrapper">
+                        <div class="img"><img src="./img/footer/logo.png" alt="logo"></div>
+                        <p>© Guest House, LLC. All rights reserved. Powered by Webflow.</p>
+                        <div class="txt">
+                            <a href="tel:+470702881234">+47 (0) 702 88 12 34</a>
+                            <div class="line_2"></div>
+                            <a href="mailto: example@webflow.io">example@webflow.io</a>
+                            <div class="line_2"></div>
+                            <a href="#">Klubbvika 12, 8310 Kabelvag, Norway</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- ===Page=== -->
+    </div>
+<!-- Script JS -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./vendor/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./vendor/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/style.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+
+
+
+
